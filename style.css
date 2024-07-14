@@ -1,0 +1,73 @@
+.navbar {
+    background-color: #4CAF50; /* Green background color */
+    overflow: hidden;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .logo a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #f0f0f0; /* Lighter color on hover */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.side-by-side {
+    display: flex; /* Use flexbox for side-by-side layout */
+}
+
+.side-by-side p {
+    width: 50%; /* Each paragraph takes up half of the container */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 10px; /* Add some space between paragraphs */
+}
+
+.side-by-side p:last-child {
+    margin-right: 0; /* Remove margin on the last paragraph to prevent extra space */
+}
+
+
+        
